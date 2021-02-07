@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="formulario-style.css">
+    <title>input_types</title>
+  </head>
+  <body>
+    <div class="umbrellaTitle">Umbrella's Corporation Survey Form</div>
+  
+
+<!-- El input por defecto es un elemento inline, 
+esto quiere decir solo tomara el ancho de su contenido
+para mostrarse en el viewport,  permitiendo que otros elementos
+se posicionen al lado de el -->
+
+<!-- Contrario a los elementos inline, los elementos de bloque, como
+el <p>, toman siempre todo el ancho del viewport, indistintamente si su
+contenido interno llegara a necesitarlo, o no -->
+  
+  <form class="formBox" action="https://residentevil.fandom.com/es/wiki/Corporación_Umbrella">
+    <div>THIS IS RUTINARY. PLEASE FILL THE FORM.</div>
+    <p>Employee Login:  </p>
+    <input class="inputType inputStyles loginStyle" type="text" placeholder="Enter your username" />
+    <input class="inputType inputStyles loginStyle" type="password" placeholder="Enter your password" />
+    <input class="inputType inputStyles loginStyle" type="email" placeholder="Enter your email" />
+  
+    <p>Do you like working with us?</p>
+    Yes <input type="checkbox" /> 
+    No  <input type="checkbox" />
+  
+    <p>Enter the date that you got hired:</p>
+    <input class="inputStyles" type="date" />
+  
+    <p>Pick a color:</p>
+    <input class="inputStyles" type="color" />
+  
+    <!-- con la etiqueta <br /> podemos hacer un salto de línea -->
+    <br />
+    <!-- copia y pega la etiqueta <br /> 5 veces debajo de este comentario -->
+    
+    <p>Rate our job environment:</p>
+  
+    <span>Awful</span>
+    <input type="range"/>
+    <span>Awesome</span>
+  
+    <br />
+    <br />
+    
+  
+    <div>Do you believe in the "accident zombie creation"?</div>
+    <br />
+    <!-- la etiqueta <select> se usa anidando etiquetas <options>, similar
+      a la etiqueta <ul> con las <li> -->
+    <select class="inputStyles">
+      <option>Yes</option>
+      <option>Maybe</option>
+      <option>No</option>
+    </select>
+
+    <br />
+    <br />
+    <br />
+
+    <button class="inputStyles" id="buttonStyle" type="submit">Submit</button>
+    <br />
+    <br />
+    <br />
+    <div>Help: support@umbrellacorp.com</div>
+
+  </form>
+   
+  </body>
+</html>

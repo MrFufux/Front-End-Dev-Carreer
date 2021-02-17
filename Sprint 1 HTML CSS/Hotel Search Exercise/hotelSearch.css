@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     }
+  
+  body {
+    font-family: sans-serif;
+    /* podemos aplicar un color de fondo por si el video no carga */
+    background-color: #fff;
+    background-image: url(https://images.axios.com/gZM5Lq8dXJh9h0fAvqRZzBif7Mg=/0x0:1920x1080/1920x1080/2020/09/10/1599748090145.gif);
+    background-size: cover; /* Cubre la totalidad del viewport*/
+    }
+  .cover {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .flex-form{
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+
+    /*button design*/
+button{
+    padding:10px;
+    background-color: rgb(199, 153, 229, 1);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    /*este box-shadow le da un estilo smooth*/
+    box-shadow: 0 0 3pt 2pt rgb(80, 25, 207, 0.3);
+    }
+    button :hover{ 
+        background-color: rgb(199, 153, 229, 0.7);
+        text-shadow: 1px 1px 6px #fff;   
+    }
+    a{ 
+      text-decoration: none;
+      color:#fff;
+    }
+
+    /*input desing*/
+  input{
+    background-color: rgb(109, 150, 202);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 3pt 2pt rgb(80, 25, 207);
+    outline: none; /* para quitar el contorno*/
+    }
+    input:hover{
+        background-color: rgb(109, 150, 202, 0.8);
+    }
+
+    /*select desing*/
+  select{
+    background-color: rgb(109, 150, 202, 1);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 3pt 2pt rgb(80, 25, 207);
+    outline: none; /* para quitar el contorno*/
+    }
+    select:hover{
+        background-color: rgb(109, 150, 202, 0.8);
+    }
+
+  ::placeholder{
+      color: #fff;
+    }
+  label{
+      color: rgb(255, 255, 255);
+      font-size: larger;
+    }
+    footer{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
+  

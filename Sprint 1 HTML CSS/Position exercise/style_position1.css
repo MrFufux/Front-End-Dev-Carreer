@@ -1,0 +1,137 @@
+
+body{
+    height: 100vh; /*vh = viewport height*/
+    width: 100vw; /*vw = viewport width*/
+}
+.background{
+    background-color: rgb(161, 244, 255);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: 0px;
+}
+/* The * means all elements(universal selector). 
+ Setting all elements to have zero margins, zero padding 
+ and making them looks the same in all browsers. */
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:17px;
+  }
+.ground{
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 99%;
+    background-color: #000;
+}
+.shroomBox1{
+    /*Box creation*/
+    background-color:#ffa500;
+    height: 5rem;
+    width: 5rem;
+    border: 5px #000 solid;
+    text-align: center;
+    line-height: 80px;
+    font-size: 3rem;
+    color: #fff;
+    /*BoxPosition*/
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+.shroomBox2{
+    /*Box creation*/
+    background-color:#ffa500;
+    height: 5rem;
+    width: 5rem;
+    border: 5px #000 solid;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 5px;
+    /*BoxPosition*/
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+.shroomBox3{
+    /*BoxCreation*/
+    background-color:#ffa500;
+    height: 5rem;
+    width: 5rem;
+    border: 5px #000 solid;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 5px;
+    /*BoxPosition*/
+    position: absolute;
+    top: 40%;
+    left: 7px;
+}
+.shroomBox4{
+    /*BoxCreation*/
+    background-color:#ffa500;
+    height: 5rem;
+    width: 5rem;
+    border: 5px #000 solid;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 5px;
+    /*BoxPosition*/
+    position: absolute;
+    top: 40%;
+    left: 11%;
+}
+.mountain1{
+    /*BoxCreation*/
+    background-color: #808080;
+    height: 30rem;
+    width: 13rem;
+    border: 5px #000 solid;
+    border-radius: 5px; /*En las esquinas se hace un giro*/
+    box-shadow: 70px 70px 0px 0px #000; /*genera una sombra de la caja creada*/
+    /*BoxPosition*/
+    position: absolute;
+    bottom: 1%;
+    right: 40%;
+}
+.mountain2{
+    /*BoxCreation*/
+    background-color: #ffc0cb;
+    height: 15rem;
+    width: 10rem;
+    border: 5px #000 solid;
+    border-radius: 5px; 
+    box-shadow: 50px 40px 0px 0px #000; 
+    /*BoxPosition*/
+    position: absolute;
+    bottom: 1%;
+    right: 52%;
+}
+.mountain3{
+    /*BoxCreation*/
+    background-color: #008000;
+    height: 15rem;
+    width: 10rem;
+    border-top: 5px #000 solid;
+    border-left: 5px #000 solid;
+    /*BoxPosition*/
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+}
+
+
+    
+
+    
+
+

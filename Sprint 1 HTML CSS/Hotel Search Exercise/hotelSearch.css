@@ -33,7 +33,7 @@ button{
     /*este box-shadow le da un estilo smooth*/
     box-shadow: 0 0 3pt 2pt rgb(80, 25, 207, 0.3);
     }
-    button :hover{ 
+button:hover{ 
         background-color: rgb(199, 153, 229, 0.7);
         text-shadow: 1px 1px 6px #fff;   
     }
@@ -68,7 +68,8 @@ button{
     select:hover{
         background-color: rgb(109, 150, 202, 0.8);
     }
-
+    
+    /*Extra Styles design*/
   ::placeholder{
       color: #fff;
     }

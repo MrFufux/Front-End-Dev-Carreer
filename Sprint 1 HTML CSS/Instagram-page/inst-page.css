@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 66, 99);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px rgba(180, 31, 31, 0.712);  
+}
+/*header styles*/
+.header{
+    display: flex;
+    height: 47px;
+    /*width: 375px;*/
+    justify-content: space-between;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92px;
+   /* height: 43px;*/
+    color: #000;
+}
+.status-bar{
+    height: 28px;
+    width: 65px;
+}
+/*End header styles*/
+
+.icons-box{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/*User styles*/
+.user{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 375px;
+}
+.user-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 31px;
+}
+.user-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 95px;
+    width: 375px;
+}
+.user-photo-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 95px;
+}
+.user-photo-display{
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+}
+.user-cross-circle{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    /*border-radius: 50%;*/
+    z-index: 1;
+    cursor: pointer;
+}
+.numbers-container{
+    display: flex;
+    height: 95px;
+    width: 270px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.numbers-container-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number{
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.user-resume{
+    display: flex;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    height: 80px;
+    width: 333px;
+}
+.user-edit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+    /*font-size: 20px;*/
+}
+#edit-profile-button{
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid  rgb(223, 219, 219);
+    width: 341px;
+    height: 30px;
+    cursor: pointer;
+}
+/*End user styles*/
+
+/*pictures-content styles*/
+.pic-content{
+    height: 495px;
+}
+.pic-content-buttons{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-top: 1px solid rgb(209, 209, 209);
+}
+.pics-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 187.5px;
+    border-bottom: 2px solid #000;
+}
+.pics-tagged{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 187.5px;
+}
+.img-grid{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.img-tag{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.pictures-container{ 
+    /*grid layout*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*fr(fraccion): medida */
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+}
+.pictures{
+    height: 123px;
+    width: 123px;
+}
+/*End pic-content*/
+
+/*bottom-container*/
+.bottom-container{
+    display: flex;
+    height: 85px;
+    width: 375px;
+    justify-content: flex-start;
+}
+.icons-containers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+    width: 87px;
+}
+.icon-pic{
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+.notification-icon{
+    position:absolute;
+    width: 30px;
+    height: 100px;
+    bottom:5px;
+    cursor: pointer;
+}
+.dot-icon{
+    position:absolute;
+    width: 5px;
+    height: 100px;
+    top:0;
+    cursor: pointer;
+}
+/*End bottom-container*/
